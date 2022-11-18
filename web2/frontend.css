@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    background-color: #020814;
+}
+
+/* starting of header */
+h1
+{
+    color: rgb(193, 227, 245);
+}
+
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #020814;
+    padding-left: 20px;
+    height: 3em;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(9 194 28) ;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+
+header nav ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+
+header nav ul a span
+{
+    color: rgb(9 194 28);
+}
+
+
+header nav ul a
+{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-left: 2px solid rgb(193, 227, 245);
+    display: inline-block;
+    color:rgb(193, 227, 245) ;
+}
+
+
+header span
+{
+    color: rgb(9 194 28);
+}
+
+/* starting of section */
+.img
+{
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    width: 100%;    
+}
+
+
+.para
+{
+    display: flex;   
+    padding-bottom: 80%; 
+    /* opacity: 0.78; */
+}
+
+
+#htmlpara 
+{
+    position: absolute;
+    top: 18rem;
+    left: 5rem;
+    right: 73rem;
+}
+
+#jspara 
+{
+    position: absolute;
+    top: 18rem;
+    left: 73rem;
+    right: 5rem;
+}
+
+#csspara 
+{
+    position: absolute;
+    top: 43rem;
+    left: 39em;
+    right: 39rem;
+    background-color: none;
+    
+}
+
+#bootstrappara 
+{
+    position: absolute;
+    top: 43rem;
+    left: 5em;
+    right: 73rem;
+    
+}
+
+
+#reactjspara 
+{
+    position: absolute;
+    top: 43rem;
+    left: 73rem;
+    right: 5rem;
+}
+
+
+
+section p span
+{
+    color: rgb(9 194 28);
+    border: 1px solid rgb(9 194 28);
+    padding: 2px;
+}
+
+
+section p
+{
+    border: 1px solid rgb(9 194 28);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(193, 227, 245);
+    padding: 10px;
+    margin: 3px;    
+}
+
+section
+{
+    position: relative;
+    /* opacity: 0.78; */
+}
+
+
+/* starting of footer */
+
+footer
+{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0rem;
+    background-color: #020814;
+    border-top: 1px solid rgb(9 194 28);
+    height: 20vh;
+}
+
+
+footer:hover
+{
+    height: 45vh;
+    color: red;
+}
+
+
+.contant
+{
+    display: flex;
+    /* margin-top: -4px; */
+    padding: 1em;
+    /* position: absolute; */
+    /* top: 5rem; */
+    /* border-top: 1px solid rgb(9 194 28) ; */
+    /* background-color: black; */
+
+}
+
+
+.menu
+{
+    margin-right: 1rem;
+}
+
+
+footer a
+{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid ;
+    color: rgb(9 194 28);
+    padding: 4px;
+    display: inline-block;
+    width: 100px;
+}
+
+
+footer p
+{
+    padding-left: 20px;
+    color: rgb(193, 227, 245);
+    border-left: 1px solid rgb(9 194 28);
+    padding-bottom: 1.02rem;
+    padding-top: 1px;
+}
+
+footer p span
+{
+    color: rgb(9, 194, 28);
+}
+
+
+footer li
+{
+    list-style: none;
+    text-align: center; 
+    margin-bottom: 2.1rem;  
+    margin-top: 0.7rem;
+}
